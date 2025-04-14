@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskOne</title>
+</head>
+<body>
+    
+    <div id="main-div">
+        <div class="parents">
+            <div class="one">
+                <img src="./media/imges/mohamed.jpg" alt="mohamed">
+            </div>
+            <div class="two">
+                <h1>Mohamed Aljerjawi</h1>
+                <address><h3>Palestine - Gaza</h3></address>
+            </div>
+            <div class="three">
+                <p><b>SoftWare Engineer</b></p>
+            </div>
+            <div class="four">
+                <div class="email"><a href="#">Email</a></div>
+                <div class="github"><a href="#">GitHub</a></div>
+                <div class="twitter"><a href="#">Twitter</a></div>
+                <div class="faceboke"><a href="#">Faceboke</a></div>
+            </div>
+            <br>
+            <div>
+                <p>Created By &copy; Mohamed Aljerjawi</p>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: gray;
+        }
+        div#main-div{
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        div#main-div .parents{
+            width: 30%;
+            height: 90%;
+            text-align: center;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        div#main-div .parents .one , div#main-div .parents  .two{
+            margin-bottom: 15px;
+        }
+        div#main-div .parents .one img{
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+        }
+        div#main-div .parents  .two h1{
+            margin-bottom: 10px;
+        }
+        div#main-div .parents .three p{
+            color: gray;
+            font-style: italic;
+        }
+        div#main-div .parents .four div{
+            border: 2px solid gray;
+            padding: 10px;
+            margin: 15px 0;
+            border-radius: 10px;
+        }
+        div#main-div .parents .four div a{
+            text-decoration: none;
+            color: gray;
+        }
+    </style>
+
+</body>
+</html>
